@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nofil Shoaib - Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"> 
+</head>
+<body>  
+  <header>
+    <h1>Nofil Shoaib</h1> 
+    <p>Frontend Developer & Creative Designer</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>      
+    <div class="profile-container" data-aos="zoom-in">
+      <img src="IMG-20240815-WA0035.jpg" alt="Nofil Shoaib" class="profile-image">  
+    </div>
+    <p data-aos="fade-up">I'm Nofil Shoaib, a front-end developer with a passion for creating beautiful, responsive websites.</p>
+    <a href="blue professional modern CV resume (1).pdf" download="Nofil_Shoaib_Resume.pdf" class="button" data-aos="fade-up">Download Resume</a>
+  </section>
+  
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>
+            <img src="icons8-html-logo-48.png" alt="HTML Logo" class="skill-logo"> HTML
+        </li>
+        <li>
+            <img src="icons8-css-logo-48.png" alt="CSS Logo" class="skill-logo"> CSS
+        </li>
+        <li>
+            <img src="icons8-javascript-48.png" alt="JavaScript Logo" class="skill-logo"> JavaScript
+        </li>
+        <li>
+            <img src="icons8-typescript-48.png" alt="TypeScript Logo" class="skill-logo"> TypeScript
+        </li>
+        <li>
+            <img src="icons8-next.js-64.png" alt="Next.js Logo" class="skill-logo"> Next.js
+        </li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project" data-aos="fade-left">
+      <h3>Countdown Timer</h3> 
+      <p>A dynamic and simple countdown timer application.</p>
+      <img src="karsten-fullhaas-GfyXc8md6nI-unsplash.jpg" alt="Project Image" data-aos="zoom-in">
+      <a href="https://countdown-app-fawn.vercel.app/" target="_blank" class="project-button" data-aos="fade-left">View Live</a>
+      <a href="https://github.com/MuhammadNofilShoaib/Countdown-App.git" target="_blank" class="project-button" data-aos="fade-left">View Code</a>
+    </div>
+    <div class="project" data-aos="fade-right">
+      <h3>Dynamic Resume Generator</h3>
+      <p>A dynamic and simple resume/CV maker, allows you to just enter your details and get your resume ready in less than a second.</p>
+      <img src="cv.jpg" alt="Project Image" data-aos="zoom-in">
+      <a href="https://milestone-5.vercel.app/" target="_blank" class="project-button" data-aos="fade-right">View Live</a>
+      <a href="https://github.com/MuhammadNofilShoaib/milestone---5.git" target="_blank" class="project-button" data-aos="fade-right">View Code</a>
+    </div>
+  </section> 
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/xdknrpod" method="POST">   
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+  
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://github.com/MuhammadNofilShoaib" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/nofil-shoaib-6b284328a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://www.instagram.com/muhammad_nofil_shoaib/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2024 Nofil Shoaib. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+</html>
